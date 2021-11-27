@@ -1,0 +1,41 @@
+html {
+  background-image: linear-gradient(to right, #0f0f0f, #151517);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+#titleimage {
+  width: 90%;
+  height: 90%;
+  border-bottom-left-radius: 5%;
+  border-bottom-right-radius: 5%;
+  position: absolute;
+  z-index: 1;
+}
+
+#icon {
+  position: relative;
+  z-index: 2;
+  bottom: 0;
+  right: 0;
+  border-radius: 100%;
+}
+
+#title {
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  height: 0;
+  padding-bottom: 20%;
+}
+
+body {
+  color: white;
+}
+
+#maindiv {
+  text-align: center;
+}
+
+.linkline {
+  display: inline;
+}
